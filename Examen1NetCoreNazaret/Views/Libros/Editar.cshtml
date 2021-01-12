@@ -1,0 +1,19 @@
+﻿@model Libro
+<h1>Editar @Model.Titulo</h1>
+
+<form method="post">
+    <label>Id Libro</label>
+    <input type="text" name="idlibro" class="form-control" value="@Model.IdLibro" readonly />
+    <label>Título</label>
+    <input type="text" name="titulo" class="form-control" />
+    <lable>Autor</lable>
+    <input type="text" name="autor" class="form-control" />
+    <label>Sinopsis</label>
+    <input type="text" name="sinopsis" class="form-control" />
+    <lable>Imagen</lable>
+    <input type="text" name="imagen" class="form-control" />
+    <label>Id Género(1-8)</label>
+    <input type="text" name="idgenero" class="form-control" /><br />
+    <button type="submit" class="btn btn-success">Editar</button>
+    <a class="btn btn-warning" asp-controller="Libros" asp-action="Libros">Volver a lista</a>
+</form>

@@ -1,0 +1,23 @@
+﻿@model List<Genero>
+<h1>Géneros</h1>
+<a class="btn btn-primary" asp-controller="Generos" asp-action="Crear">Crear nuevo</a>
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Género</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Genero gen in Model)
+        {
+            <tr>
+                <td>@gen.IdGenero</td>
+                <td>@gen.Nombre</td>
+                <td>@Html.ActionLink("Eliminar", "Borrar", "Generos", new { idgenero = gen.IdGenero }, new { @class = "btn btn-primary" })</td>
+            </tr>
+        }
+    </tbody>
+</table>

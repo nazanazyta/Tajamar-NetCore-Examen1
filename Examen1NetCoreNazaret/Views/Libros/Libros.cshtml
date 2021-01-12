@@ -1,0 +1,40 @@
+﻿@model List<Libro>
+@{
+    List<Genero> generos = ViewData["generos"] as List<Genero>;
+    //List<Libro> librosgenero = ViewData["libros"] as List<Libro>;
+}
+<h1>Libros</h1>
+<a class="btn btn-primary" asp-controller="Libros" asp-action="Crear">Crear nuevo</a>
+<br />
+<br />
+<form method="post">
+    <select name="idgenero">
+        @foreach (Genero gen in generos)
+        {
+            <option value="@gen.IdGenero">@gen.Nombre</option>
+        }
+    </select>
+    <button type="submit" class="btn btn-info">Buscar</button>
+</form>
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Libro lib in Model)
+        {
+            <tr>
+                <td>@lib.Titulo</td>
+                <td>@lib.Autor</td>
+                <td>@Html.ActionLink("Detalles", "Detalles", "Libros", new { idlibro = lib.IdLibro }, new { @class = "btn btn-primary" })</td>
+                <td>@Html.ActionLink("Editar", "Editar", "Libros", new { idlibro = lib.IdLibro }, new { @class = "btn btn-primary" })</td>
+            </tr>
+        }
+    </tbody>
+</table>

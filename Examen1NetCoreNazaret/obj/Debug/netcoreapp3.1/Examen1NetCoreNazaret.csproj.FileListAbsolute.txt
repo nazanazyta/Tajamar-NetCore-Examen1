@@ -35,3 +35,16 @@ C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\n
 C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Examen1NetCoreNazaret.pdb
 C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Examen1NetCoreNazaret.genruntimeconfig.cache
 C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Examen1NetCoreNazaret.csproj.CopyComplete
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Razor\Views\Generos\Generos.cshtml.g.cs
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Razor\Views\Libros\Libros.cshtml.g.cs
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Razor\Views\Libros\Detalles.cshtml.g.cs
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Razor\Views\Libros\Crear.cshtml.g.cs
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Razor\Views\Libros\Editar.cshtml.g.cs
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Razor\Views\Generos\Crear.cshtml.g.cs
+C:\Users\Nazaret\Repos\Tajamar-NetCore-Examen1\Examen1NetCoreNazaret\obj\Debug\netcoreapp3.1\Razor\Views\Generos\Borrar.cshtml.g.cs

@@ -1,0 +1,6 @@
+﻿@model Genero
+<h1>¿Seguro que quieres borrar el género @Model.Nombre?</h1>
+<form method="post">
+    <input type="text" name="idgenero" class="form-control" readonly value="@Model.IdGenero" />
+    <button type="submit" class="btn btn-danger">Borrar</button>
+</form>

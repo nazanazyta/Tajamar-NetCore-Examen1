@@ -1,0 +1,12 @@
+﻿@model Libro 
+<h1>Detalles de @Model.Titulo</h1>
+<h4>Id Libro: @Model.IdLibro</h4>
+<h4>Título: @Model.Titulo</h4>
+<h4>Autor: @Model.Autor</h4>
+<h4>Sinopsis:</h4>
+<p>@Model.Sinopsis</p>
+<h4>Imagen:</h4>
+<img style="width: 150px; height: 200px" src="~/images/@Model.Imagen" />
+<h4>Id Género: @Model.IdGenero</h4>
+<br />
+<a class="btn btn-warning" asp-controller="Libros" asp-action="Libros">Volver a lista</a>
